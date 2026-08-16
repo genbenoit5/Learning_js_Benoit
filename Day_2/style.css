@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(42, 40, 40);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+
+    & h1{
+          font-size: 40px;
+    }
+}
+.navlinks {
+    display: flex;
+    gap: 30px;
+    & a{
+         text-decoration: none;
+         color: white;
+         font-size: 25px;
+    }
+}
+.navlinks a:hover{
+    color: rgb(169, 161, 161);
+    transition: all 0.4s ease-in-out;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    background-color:#f3f4f6;
+    padding: 300px;
+    & h1{
+        font-size: 60px;
+    }
+    & p{
+        font-size: 30px;
+    }
+    & button{
+        padding: 12px 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color:  #0c41b4;
+        color: white;
+    }
+}
+.ourproducts{
+    padding: 180px;
+}
+.ourproducts .head{
+    padding: 50px ;
+    text-align: center;
+    & h1{
+        font-size: 60px;
+    }
+    & p {
+        font-size: 30px;
+    }
+}
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.card{
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    & h1{
+        font-size: 25px;
+    }
+    & p {
+        font-size: 20px;
+    }
+    & h2{
+        color: rgb(163, 163, 232);
+        margin-bottom: 15px;
+    }
+    & button {
+    background-color: #111827;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    }
+}
+.card:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 200px;
+    background-color:#f3f4f6;
+
+    & h1{
+        font-size: 60px;
+    }
+    & p{
+        font-size: 25px;
+    }
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding: 100px;
+
+    & h1 {
+        font-size: 60px;
+    }
+    & p {
+        font-size: 25px;
+    }
+     & button {
+    background-color:  #0c41b4;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    }
+
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #777373;
+}
+
