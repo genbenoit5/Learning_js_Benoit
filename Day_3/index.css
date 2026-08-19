@@ -27,7 +27,7 @@
         color: white;
     }
     & h3{
-        color: yellow;
+        color: hsl(75, 94%, 57%);
     }
     
 }
@@ -51,8 +51,9 @@
     & button{
         width: 340px;
         border-radius: 5px;
+        border: none;
         padding: 10px 25px;
-        background-color: rgb(143, 142, 142);
+        background-color: rgb(56, 55, 55);
         font-weight: 900;
         color: white;
      }
