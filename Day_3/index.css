@@ -55,11 +55,12 @@
         padding: 10px 25px;
         background-color: rgb(56, 55, 55);
         font-weight: 900;
-        color: white;
+        color:  hsl(0, 0%, 100%);
      }
     
 }
 button:hover{
+    color:black;
     background-color: hsl(75, 94%, 57%);
     transition: ease-in-out 0.3s;
     cursor: pointer;
