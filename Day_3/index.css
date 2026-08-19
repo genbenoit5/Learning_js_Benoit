@@ -59,3 +59,9 @@
      }
     
 }
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+
+}
