@@ -9,6 +9,11 @@ a{
     font-size: 20px;
 }
 .gen{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-around;
