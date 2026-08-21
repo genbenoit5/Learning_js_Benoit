@@ -393,6 +393,7 @@ section{
     }
     .photo img{
         width: 600px;
+        border-radius: 10px;
     }
     .photo .photo1{
         max-width: 500px;
