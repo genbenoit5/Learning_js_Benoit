@@ -13,8 +13,8 @@
 .container{
     border-radius: 10px;
     padding: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     width: 450px;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
         color: white;
     }
     & h3{
-        color: hsl(75, 94%, 57%);
+        color: hsl(75, 87%, 55%);
     }
     
 }
