@@ -11,7 +11,7 @@ shape.addEventListener("change", function() {
     rectangleinputs.classList.add("hidden")
     triangleinputs.classList.add("hidden")
 
-    if (shape.value === "circle"){
+    if (shape.value === "circle") {
         circleinputs.classList.remove("hidden")
     }
     else if (shape.value === "rectangle"){
@@ -35,6 +35,11 @@ calculatebtn.addEventListener ("click", function () {
         const area = length * width;
         result.textContent = `Area of a rectangle = ${area.toFixed(2)} square units`;
 
+    } else if (shape.value  === "triangle"){
+        const base = Number(document.getElementById("base").value);
+        const height = Number(document.getElementById("height").value);
+        const area = 0.5 * base * height;
+        result.textcontent = `Area of a triangle = ${area.toFixed(2)} square units`;
     }
 
 });
