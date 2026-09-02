@@ -96,6 +96,21 @@ h1{
         gap: 8px;
     }
 }
-
+.newgame{
+    width: 100%;
+    padding: 14px;
+    border: 2px solid rgb(128, 128, 241);
+    border-radius: 10px;
+    background: white;
+    color: rgb(80, 80, 241);
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.newgame:hover{
+    transition: ease-in 0.3s;
+    background: blue;
+    color: white;
+}
     
     
