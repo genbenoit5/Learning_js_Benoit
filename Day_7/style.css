@@ -21,7 +21,7 @@ body{
     box-shadow: 0px 12px 50px black;
 }
 h1{
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .describe {
     color: grey;
@@ -30,5 +30,48 @@ h1{
 .gameinfo{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.gameinfo div{
+    flex: 1;
+    background: rgb(239, 239, 255);
+    padding: 15px ;
+    border-radius: 8px;
+}
+.gameinfo span{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: rgb(143, 142, 142);
+}
+.gameinfo strong{
+    font-size: 22px;
+    color: rgb(96, 96, 241);
+}
+.inputsec{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    & #guessinput{
+        flex: 1;
+        padding: 14px;
+        border: 2px solid rgb(128, 128, 241);
+        border-radius: 12px;
+        font-size: 16px;
+    }
+    & #guessbtn{
+        padding: 14px 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+#guessbtn:hover{
+    background: rgb(9, 9, 179);
+    transform: translateY(-2px);
 }
