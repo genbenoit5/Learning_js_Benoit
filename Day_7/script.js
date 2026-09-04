@@ -20,5 +20,11 @@ function startGame{
     attemptsleft = 10;
     score = 100;
     previousguesses = [];
+
+    attemptsdisplay.textContent = attemptsleft;
+    scoredisplay.textContent = score ;
+    message.textContent = "Make a guess by entering a number";
+    guesslist.innerHTML = "";
+
     
 }
