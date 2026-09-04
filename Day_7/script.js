@@ -1,8 +1,8 @@
-let secretNumber;
-let attemptsLeft;
+let secretnumber;
+let attemptsleft;
 let score;
 let bestScore = 0;
-let previousGuesses = [];
+let previousguesses = [];
 
 
 const guessinput = document.getElementById("guessinput");
@@ -15,5 +15,6 @@ const guesslist = document.getElementById("guesslist");
 const newgamebtn = document.getElementById("newgamebtn");
 
 function startGame{
-    
+
+    secretnumber = Math.floor(Math.random() * 100) + 1;
 }
