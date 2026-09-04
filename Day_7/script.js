@@ -18,4 +18,5 @@ function startGame{
 
     secretnumber = Math.floor(Math.random() * 100) + 1;
     attemptsleft = 10;
+    score = 100;
 }
