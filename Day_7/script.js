@@ -103,3 +103,10 @@ function checkGuess() {
   guessinput.focus();
 
 }
+
+function displayGuess(number) {
+    const guesselement = document.createElement("span");
+    guesselement.classList.add("guessitem");
+    guesselement.textContent = number;
+    guesslist.appendChild(guesselement);
+}
