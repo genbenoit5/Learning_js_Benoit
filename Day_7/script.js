@@ -98,6 +98,8 @@ function checkGuess() {
     message.textContent = `Game Over! The number was ${secretnumber}.`;
     endgame();
   }
-  
+
+  guessinput.value = "";
+  guessinput.focus();
 
 }
