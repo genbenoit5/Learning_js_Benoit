@@ -12,7 +12,7 @@ body{
     background-color: rgb(78, 78, 155);
 }
 .container {
-    width: 100%;
+    width: 85%;
     max-width: 500px;
     background-color: white;
     border-radius: 18px;
@@ -111,6 +111,31 @@ h1{
     transition: ease-in 0.3s;
     background: blue;
     color: white;
+}
+
+@media (max-width: 500px){
+    
+    .container{
+        padding: 25px 20px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    .gameinfo{
+        gap: 5px;
+    }
+    .gameinfo div {
+        padding: 12px 5px;
+    }
+    .gameinfo strong {
+        font-size: 18px;
+    }
+    .inputsec{
+        flex-direction: column;
+    }
+    #guess-btn {
+        width: 100%;
+    }
 }
     
     
