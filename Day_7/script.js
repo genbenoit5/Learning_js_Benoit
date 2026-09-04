@@ -77,5 +77,11 @@ function checkGuess() {
   attemptsleft--;
   attemptsdisplay.textContent = attemptsleft;
 
-  
+  score -= 10;
+  if (score < 0) {
+    score = 0;
+  }
+
+  scoredisplay.textContent = score;
+
 }
