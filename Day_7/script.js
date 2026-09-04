@@ -13,3 +13,7 @@ const scoredisplay = document.getElementById("score");
 const bestscoredisplay = document.getElementById("bestscore");
 const guesslist = document.getElementById("guesslist");
 const newgamebtn = document.getElementById("newgamebtn");
+
+function startGame{
+    
+}
