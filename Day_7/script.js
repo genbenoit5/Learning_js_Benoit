@@ -56,4 +56,11 @@ function checkGuess() {
     previousguesses.push(userGuess);
 
     displayGuess(userGuess);
+
+    if (userGuess === secretnumber){
+
+        message.textContent = `Correct! The number was ${secretnumber}!` ;
+    }
+
+    
 }
