@@ -115,3 +115,7 @@ function endGame() {
     guessinput.disabled = true;
     guessbtn.disabled = true;
 }
+
+guessbtn.addEventListener("click", checkGuess);
+newgamebtn.addEventListener("click", startGame);
+
