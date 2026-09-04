@@ -17,4 +17,5 @@ const newgamebtn = document.getElementById("newgamebtn");
 function startGame{
 
     secretnumber = Math.floor(Math.random() * 100) + 1;
+    attemptsleft = 10;
 }
