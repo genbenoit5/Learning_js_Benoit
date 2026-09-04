@@ -46,4 +46,11 @@ function checkGuess() {
         message.textContent = "Please enter a number between 1 and 100.";
         return;
     }
+
+    if (previousguesses.includes(userGuess)){
+
+        message.textContent = "You already guess that number. Don't behave like ELIAS" ;
+        return;
+    }
+    
 }
