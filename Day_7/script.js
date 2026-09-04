@@ -60,7 +60,14 @@ function checkGuess() {
     if (userGuess === secretnumber){
 
         message.textContent = `Correct! The number was ${secretnumber}!` ;
+
+
+    if (score > bestScore) {
+         
+        bestScore = score;
+        bestscoredisplay.textContent = bestScore;
     }
 
-    
+}
+
 }
