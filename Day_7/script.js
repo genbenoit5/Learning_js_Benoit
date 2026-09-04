@@ -84,4 +84,13 @@ function checkGuess() {
 
   scoredisplay.textContent = score;
 
+  if(userGuess > secretnumber){
+
+    message.textContent = "⬇ Too high! Try a smaller number.";
+
+  } else {
+
+    message.textContent = "⬆ Too low! Try a bigger number.";
+  }
+
 }
