@@ -68,6 +68,15 @@ function checkGuess() {
         bestscoredisplay.textContent = bestScore;
     }
 
+    endgame();
+
+    return;
+
 }
+
+attemptsleft--;
+attemptsdisplay.textContent = attemptsleft;
+
+
 
 }
