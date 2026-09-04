@@ -52,5 +52,8 @@ function checkGuess() {
         message.textContent = "You already guess that number. Don't behave like ELIAS" ;
         return;
     }
-    
+
+    previousguesses.push(userGuess);
+
+    displayGuess(userGuess);
 }
