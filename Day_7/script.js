@@ -28,5 +28,8 @@ function startGame{
 
     guessinput.disabled = false;
     guessbtn.disabled = false;
+
+    guessinput.value = "";
+
     
 }
