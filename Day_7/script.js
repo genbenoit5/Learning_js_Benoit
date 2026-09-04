@@ -36,5 +36,14 @@ function startGame() {
 
 function checkGuess() {
 
-    
+    const userGuess = Number(guessinput.value);
+
+    if (
+        userGuess < 1 ||
+        userGuess > 100 ||
+        guessinput.value === ""
+    ){
+        message.textContent = "Please enter a number between 1 and 100.";
+        return;
+    }
 }
