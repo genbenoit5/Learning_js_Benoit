@@ -26,5 +26,7 @@ function startGame{
     message.textContent = "Make a guess by entering a number";
     guesslist.innerHTML = "";
 
+    guessinput.disabled = false;
+    guessbtn.disabled = false;
     
 }
