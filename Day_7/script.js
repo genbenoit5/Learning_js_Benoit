@@ -14,7 +14,7 @@ const bestscoredisplay = document.getElementById("bestscore");
 const guesslist = document.getElementById("guesslist");
 const newgamebtn = document.getElementById("newgamebtn");
 
-function startGame{
+function startGame() {
 
     secretnumber = Math.floor(Math.random() * 100) + 1;
     attemptsleft = 10;
@@ -32,4 +32,9 @@ function startGame{
     guessinput.value = "";
 
     guessinput.focus();
+}
+
+function checkGuess() {
+
+    
 }
