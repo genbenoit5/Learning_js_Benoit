@@ -93,4 +93,11 @@ function checkGuess() {
     message.textContent = "⬆ Too low! Try a bigger number.";
   }
 
+  if (attempts === 0) {
+
+    message.textContent = `Game Over! The number was ${secretnumber}.`;
+    endgame();
+  }
+  
+
 }
