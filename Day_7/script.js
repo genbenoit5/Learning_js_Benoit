@@ -110,3 +110,8 @@ function displayGuess(number) {
     guesselement.textContent = number;
     guesslist.appendChild(guesselement);
 }
+
+function endGame() {
+    guessinput.disabled = true;
+    guessbtn.disabled = true;
+}
