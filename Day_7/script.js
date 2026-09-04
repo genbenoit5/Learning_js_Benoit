@@ -124,3 +124,5 @@ guessinput.addEventListener("keydown", function(event){
         checkGuess();
     }
 });
+
+startGame();
