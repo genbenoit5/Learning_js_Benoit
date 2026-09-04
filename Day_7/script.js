@@ -31,5 +31,5 @@ function startGame{
 
     guessinput.value = "";
 
-    
+    guessinput.focus();
 }
