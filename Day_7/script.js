@@ -119,3 +119,8 @@ function endGame() {
 guessbtn.addEventListener("click", checkGuess);
 newgamebtn.addEventListener("click", startGame);
 
+guessinput.addEventListener("keydown", function(event){
+    if (event.key === "Enter") {
+        checkGuess();
+    }
+});
